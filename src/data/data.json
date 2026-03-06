@@ -1,0 +1,271 @@
+[
+  {
+    "id": "0",
+    "titulo": "Imperatrice zebrano",
+    "descripcion": "Esta es la descripcion",
+    "foto_de_portada": "/miniaturas/impertrice-custom-zebrano.webp",
+    "galeria": [
+      { "url": "/slider/imperatricecustomzebrano/a.webp", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/b.webp", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/c.webp", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/d.webp", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/e.webp", "title": "" },
+      { "url": "/slider/imperatricecustomzebrano/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "1",
+    "titulo": "Buconero Standart",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/buconero-standart.webp",
+    "galeria": [
+      { "url": "/slider/buconerostandart/a.webp", "title": "" },
+      { "url": "/slider/buconerostandart/b.webp", "title": "" },
+      { "url": "/slider/buconerostandart/c.webp", "title": "" },
+      { "url": "/slider/buconerostandart/d.webp", "title": "" },
+      { "url": "/slider/buconerostandart/e.webp", "title": "" },
+      { "url": "/slider/buconerostandart/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "Eira Standart",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/eira-standart.webp",
+    "galeria": [
+      { "url": "/slider/eira/a.webp", "title": "" },
+      { "url": "/slider/eira/b.webp", "title": "" },
+      { "url": "/slider/eira/c.webp", "title": "" },
+      { "url": "/slider/eira/d.webp", "title": "" },
+      { "url": "/slider/eira/e.webp", "title": "" },
+      { "url": "/slider/eira/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "3",
+    "titulo": "Velluto Standart",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/velluto-standart.webp",
+    "galeria": [
+      { "url": "/slider/velluto/a.webp", "title": "" },
+      { "url": "/slider/velluto/b.webp", "title": "" },
+      { "url": "/slider/velluto/c.webp", "title": "" },
+      { "url": "/slider/velluto/d.webp", "title": "" },
+      { "url": "/slider/velluto/e.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "4",
+    "titulo": "Es35 Nativa",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/es-35-nativa.webp",
+    "galeria": [
+      { "url": "/slider/es35nativa/a.webp", "title": "" },
+      { "url": "/slider/es35nativa/b.webp", "title": "" },
+      { "url": "/slider/es35nativa/c.webp", "title": "" },
+      { "url": "/slider/es35nativa/d.webp", "title": "" },
+      { "url": "/slider/es35nativa/e.webp", "title": "" },
+      { "url": "/slider/es35nativa/f.webp", "title": "" },
+      { "url": "/slider/es35nativa/g.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "5",
+    "titulo": "Buconero custom nativa",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/buconero-custom-nativa.webp",
+    "galeria": [
+      { "url": "/slider/buconerocustomnativa/a.webp", "title": "" },
+      { "url": "/slider/buconerocustomnativa/b.webp", "title": "" },
+      { "url": "/slider/buconerocustomnativa/c.webp", "title": "" },
+      { "url": "/slider/buconerocustomnativa/d.webp", "title": "" },
+      { "url": "/slider/buconerocustomnativa/e.webp", "title": "" },
+      { "url": "/slider/buconerocustomnativa/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "6",
+    "titulo": "Clasica II",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/clasica-dos.webp",
+    "galeria": [
+      { "url": "/slider/clasica/a.webp", "title": "" },
+      { "url": "/slider/clasica/b.webp", "title": "" },
+      { "url": "/slider/clasica/c.webp", "title": "" },
+      { "url": "/slider/clasica/d.webp", "title": "" },
+      { "url": "/slider/clasica/e.webp", "title": "" },
+      { "url": "/slider/clasica/f.webp", "title": "" },
+      { "url": "/slider/clasica/g.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "7",
+    "titulo": "Buconero boutique",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/buconero-boutique.webp",
+    "galeria": [
+      { "url": "/slider/buconero/a.webp", "title": "" },
+      { "url": "/slider/buconero/b.webp", "title": "" },
+      { "url": "/slider/buconero/c.webp", "title": "" },
+      { "url": "/slider/buconero/d.webp", "title": "" },
+      { "url": "/slider/buconero/e.webp", "title": "" },
+      { "url": "/slider/buconero/f.webp", "title": "" },
+      { "url": "/slider/buconero/g.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "8",
+    "titulo": "Velluto ARN",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/velluto-arn.webp",
+    "galeria": [
+      { "url": "/slider/vellutoarn/a.webp", "title": "" },
+      { "url": "/slider/vellutoarn/b.webp", "title": "" },
+      { "url": "/slider/vellutoarn/c.webp", "title": "" },
+      { "url": "/slider/vellutoarn/d.webp", "title": "" },
+      { "url": "/slider/vellutoarn/e.webp", "title": "" },
+      { "url": "/slider/vellutoarn/f.webp", "title": "" },
+      { "url": "/slider/vellutoarn/g.webp", "title": "" },
+      { "url": "/slider/vellutoarn/h.webp", "title": "" },
+      { "url": "/slider/vellutoarn/i.webp", "title": "" },
+      { "url": "/slider/vellutoarn/j.webp", "title": "" },
+      { "url": "/slider/vellutoarn/k.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "9",
+    "titulo": "Smally pequestrat",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/smally-pequestrat.webp",
+    "galeria": [
+      { "url": "/slider/smallypequestrat/a.webp", "title": "" },
+      { "url": "/slider/smallypequestrat/b.webp", "title": "" },
+      { "url": "/slider/smallypequestrat/c.webp", "title": "" },
+      { "url": "/slider/smallypequestrat/d.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "10",
+    "titulo": "LP junior custom",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/lp-junior-custom.webp",
+    "galeria": [
+      { "url": "/slider/lpjunior/a.webp", "title": "" },
+      { "url": "/slider/lpjunior/b.webp", "title": "" },
+      { "url": "/slider/lpjunior/c.webp", "title": "" },
+      { "url": "/slider/lpjunior/d.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "11",
+    "titulo": "Clasica II",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/clasica-dos-dos.webp",
+    "galeria": [
+      { "url": "/slider/clasicados/a.webp", "title": "" },
+      { "url": "/slider/clasicados/b.webp", "title": "" },
+      { "url": "/slider/clasicados/c.webp", "title": "" },
+      { "url": "/slider/clasicados/d.webp", "title": "" },
+      { "url": "/slider/clasicados/e.webp", "title": "" },
+      { "url": "/slider/clasicados/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "12",
+    "titulo": "PBass custom",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/p-bass-custom.webp",
+    "galeria": [
+      { "url": "/slider/pbascustom/a.webp", "title": "" },
+      { "url": "/slider/pbascustom/b.webp", "title": "" },
+      { "url": "/slider/pbascustom/c.webp", "title": "" },
+      { "url": "/slider/pbascustom/d.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "13",
+    "titulo": "Tele 60's custom",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/tele-custom.webp",
+    "galeria": [
+      { "url": "/slider/telecustom/a.webp", "title": "" },
+      { "url": "/slider/telecustom/b.webp", "title": "" },
+      { "url": "/slider/telecustom/c.webp", "title": "" },
+      { "url": "/slider/telecustom/d.webp", "title": "" },
+      { "url": "/slider/telecustom/e.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "14",
+    "titulo": "Velluto AR clasic",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/velluto-clasica.webp",
+    "galeria": [
+      { "url": "/slider/vellutoarclasic/a.webp", "title": "" },
+      { "url": "/slider/vellutoarclasic/b.webp", "title": "" },
+      { "url": "/slider/vellutoarclasic/c.webp", "title": "" },
+      { "url": "/slider/vellutoarclasic/d.webp", "title": "" },
+      { "url": "/slider/vellutoarclasic/e.webp", "title": "" },
+      { "url": "/slider/vellutoarclasic/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "15",
+    "titulo": "Strato 60's custom",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/strato-custom.webp",
+    "galeria": [
+      { "url": "/slider/stratocustom/a.webp", "title": "" },
+      { "url": "/slider/stratocustom/b.webp", "title": "" },
+      { "url": "/slider/stratocustom/c.webp", "title": "" },
+      { "url": "/slider/stratocustom/d.webp", "title": "" },
+      { "url": "/slider/stratocustom/e.webp", "title": "" },
+      { "url": "/slider/stratocustom/f.webp", "title": "" },
+      { "url": "/slider/stratocustom/g.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "16",
+    "titulo": "Piccolina",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/piccolina.webp",
+    "galeria": [
+      { "url": "/slider/piccolina/a.webp", "title": "" },
+      { "url": "/slider/piccolina/b.webp", "title": "" },
+      { "url": "/slider/piccolina/c.webp", "title": "" },
+      { "url": "/slider/piccolina/d.webp", "title": "" },
+      { "url": "/slider/piccolina/e.webp", "title": "" },
+      { "url": "/slider/piccolina/f.webp", "title": "" },
+      { "url": "/slider/piccolina/g.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "17",
+    "titulo": "Veneto",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/veneto.webp",
+    "galeria": [
+      { "url": "/slider/veneto/a.webp", "title": "" },
+      { "url": "/slider/veneto/b.webp", "title": "" },
+      { "url": "/slider/veneto/c.webp", "title": "" },
+      { "url": "/slider/veneto/d.webp", "title": "" },
+      { "url": "/slider/veneto/e.webp", "title": "" },
+      { "url": "/slider/veneto/f.webp", "title": "" }
+    ]
+  },
+  {
+    "id": "18",
+    "titulo": "Jazzmaster boutique",
+    "descripcion": "",
+    "foto_de_portada": "/miniaturas/jazzmaster-boutique.webp",
+    "galeria": [
+      { "url": "/slider/jazzmasterboutique/a.webp", "title": "" },
+      { "url": "/slider/jazzmasterboutique/b.webp", "title": "" },
+      { "url": "/slider/jazzmasterboutique/c.webp", "title": "" },
+      { "url": "/slider/jazzmasterboutique/d.webp", "title": "" },
+      { "url": "/slider/jazzmasterboutique/e.webp", "title": "" },
+      { "url": "/slider/jazzmasterboutique/f.webp", "title": "" },
+      { "url": "/slider/jazzmasterboutique/f.webp", "title": "" }
+    ]
+  }
+]
