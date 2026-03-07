@@ -10,31 +10,43 @@ export default function Modal() {
 
   useEffect(() => {
     if (!isOpen) {
-      document.body.style.overflow = "";
-      document.body.style.paddingRight = "";
       return;
     }
 
-    const previousOverflow = document.body.style.overflow;
-    const previousPaddingRight = document.body.style.paddingRight;
-    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    const preventScroll = (event) => {
+      event.preventDefault();
+    };
 
-    if (scrollbarWidth > 0) {
-      document.body.style.paddingRight = `${scrollbarWidth}px`;
-    }
-    document.body.style.overflow = "hidden";
-
-    const onEscape = (event) => {
+    const onKeyDown = (event) => {
       if (event.key === "Escape") {
         setIsOpen(false);
+        return;
+      }
+
+      const blockedKeys = [
+        " ",
+        "Spacebar",
+        "PageUp",
+        "PageDown",
+        "End",
+        "Home",
+        "ArrowUp",
+        "ArrowDown",
+      ];
+
+      if (blockedKeys.includes(event.key)) {
+        event.preventDefault();
       }
     };
 
-    window.addEventListener("keydown", onEscape);
+    window.addEventListener("wheel", preventScroll, { passive: false });
+    window.addEventListener("touchmove", preventScroll, { passive: false });
+    window.addEventListener("keydown", onKeyDown);
+
     return () => {
-      window.removeEventListener("keydown", onEscape);
-      document.body.style.overflow = previousOverflow;
-      document.body.style.paddingRight = previousPaddingRight;
+      window.removeEventListener("wheel", preventScroll);
+      window.removeEventListener("touchmove", preventScroll);
+      window.removeEventListener("keydown", onKeyDown);
     };
   }, [isOpen]);
 
