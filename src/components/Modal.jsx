@@ -11,10 +11,17 @@ export default function Modal() {
   useEffect(() => {
     if (!isOpen) {
       document.body.style.overflow = "";
+      document.body.style.paddingRight = "";
       return;
     }
 
     const previousOverflow = document.body.style.overflow;
+    const previousPaddingRight = document.body.style.paddingRight;
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
+    if (scrollbarWidth > 0) {
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    }
     document.body.style.overflow = "hidden";
 
     const onEscape = (event) => {
@@ -27,6 +34,7 @@ export default function Modal() {
     return () => {
       window.removeEventListener("keydown", onEscape);
       document.body.style.overflow = previousOverflow;
+      document.body.style.paddingRight = previousPaddingRight;
     };
   }, [isOpen]);
 
@@ -46,7 +54,6 @@ export default function Modal() {
             aria-hidden="true"
             width={40}
             height={40}
-            priority={true}
           />
         </button>
       </figure>

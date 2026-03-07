@@ -19,7 +19,6 @@ const Sobremi = () => {
             height={250}
             src={Esteban}
             alt="Logo"
-            priority={true}
             className="px-4 pb-10"
           ></Image>
         </figure>

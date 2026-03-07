@@ -18,42 +18,42 @@ export default function NavegacionMenu() {
           <span className="text-[var(--muted)] mono-ui text-xs">. Luthier .</span>
         </div>
         <ul className="seamless-grid mt-6 list-none p-0">
-          <li>
+          <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"
               text="Inicio"
               href="/"
             />
           </li>
-          <li>
+          <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"
               text="Galeria"
               href="/galeria"
             />
           </li>
-          <li>
+          <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"
               text="Instrumentos"
               href="/instrumentos"
             />
           </li>
-          <li>
+          <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"
               text="Reparaciones"
               href="/reparaciones"
             />
           </li>
-          <li>
+          <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"
               text="Acerca de"
               href="/acerca-de"
             />
           </li>
-          <li>
+          <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"
               text="Taller"

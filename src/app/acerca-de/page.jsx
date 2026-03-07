@@ -23,7 +23,6 @@ export default function AcercaDe() {
             height={150}
             src={Isotipo}
             alt="Isotipo"
-            priority={true}
             className="lg:px-4 pb-4"
           ></Image>
           <p className="text-center lg:text-2xl font-extralight text-[#7d8c9d] mb-10 lg:mx-40">
@@ -37,7 +36,6 @@ export default function AcercaDe() {
             height={250}
             src={Esteban}
             alt="Logo"
-            priority={true}
             className="lg:px-4 opacity-50"
           ></Image>
         </figure>

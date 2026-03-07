@@ -265,6 +265,79 @@ img {
   border-bottom: 1px solid var(--border);
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .container-modal-open {
+    animation: modal-fade-in 180ms ease-out;
+  }
+
+  .container-modal-open .content-modal {
+    animation: modal-pop-in 200ms ease-out;
+  }
+
+  .container-modal-open .modal-menu-item {
+    opacity: 0;
+    animation: modal-item-in 220ms ease-out forwards;
+  }
+
+  .container-modal-open .modal-menu-item:nth-child(1) {
+    animation-delay: 40ms;
+  }
+
+  .container-modal-open .modal-menu-item:nth-child(2) {
+    animation-delay: 70ms;
+  }
+
+  .container-modal-open .modal-menu-item:nth-child(3) {
+    animation-delay: 100ms;
+  }
+
+  .container-modal-open .modal-menu-item:nth-child(4) {
+    animation-delay: 130ms;
+  }
+
+  .container-modal-open .modal-menu-item:nth-child(5) {
+    animation-delay: 160ms;
+  }
+
+  .container-modal-open .modal-menu-item:nth-child(6) {
+    animation-delay: 190ms;
+  }
+}
+
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes modal-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media screen and (max-width: 800px) {
   .content-modal {
     width: 90%;

@@ -11,7 +11,6 @@ const EnConstruccion = () => {
             height={600}
             src={construccion}
             alt="Imagen de una presentación para un sitio en construcción"
-            priority={true}
             className="bg-[var(--panel)] p-20 border border-[var(--border)]"
           ></Image>
           <h1 className="text-gray-500 mt-10 font-serif">Próximamente</h1>

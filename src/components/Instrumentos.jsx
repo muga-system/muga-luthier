@@ -44,7 +44,6 @@ export default function Instrumentos() {
               height={540}
               src={Eira}
               alt="User"
-              priority={true}
               className="mx-auto my-auto p-6 md:p-8 w-full h-auto max-w-[320px] max-h-[220px] md:max-w-[520px] md:max-h-[360px] lg:max-w-[760px] lg:max-h-[540px] rotate-90"
             ></Image>
           </BlurFade>

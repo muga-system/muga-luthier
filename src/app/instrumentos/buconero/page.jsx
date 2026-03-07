@@ -75,7 +75,7 @@ export default function Buconero() {
           <Image
             src={CroquisBuconeroVert}
             alt="Logo de marca"
-            className="mx-auto h-[600px] lg:hidden"
+            className="mx-auto h-auto w-full max-w-[320px] max-h-[62vh] sm:max-w-[380px] sm:max-h-[66vh] lg:hidden"
           />
           <Image
             src={CroquisBuconeroHorz}
@@ -109,7 +109,7 @@ export default function Buconero() {
             alt="Logo de marca"
             width={150}
             height={150}
-            className="mx-auto h-[400px] w-auto lg:hover:scale-110 duration-200"
+            className="mx-auto h-auto w-full max-w-[250px] max-h-[260px] sm:max-w-[280px] sm:max-h-[300px] lg:max-w-[320px] lg:max-h-[360px] lg:hover:scale-110 lg:transition-transform lg:duration-200"
           />
         </figure>
       </section>
