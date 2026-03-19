@@ -13,18 +13,18 @@ export default function Header({ locale = "es" }) {
       <figure className="flex justify-start col-start-1 col-end-2">
         <Link href={localizeHref("/", locale)}>
           <Image
-            className="ml-1"
+            className="ml-0"
             src={LogoApellido}
             alt="Logo de la marca con el apellido solamente"
-            width={132}
-            height={30}
+            width={120}
+            height={27}
           />
         </Link>
       </figure>
-      <div className="col-start-3 col-end-4 flex items-center justify-end pr-2">
+      <div className="col-start-3 col-end-5 flex h-10 items-stretch justify-end self-center">
         <LanguageSwitcher />
+        <Modal locale={locale} />
       </div>
-      <Modal locale={locale} />
     </header>
   );
 }

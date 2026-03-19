@@ -12,10 +12,10 @@ export default function LanguageSwitcher() {
   const enHref = swapLocalePath(pathname, "en");
 
   return (
-    <div className="flex items-center gap-0 border border-[var(--border)]">
+    <div className="flex h-10 items-stretch">
       <Link
         href={esHref}
-        className={`mono-ui px-2 py-1 text-[10px] ${
+        className={`tile-link mono-ui inline-flex h-10 w-10 items-center justify-center m-0 p-0 text-[10px] leading-none ${
           locale === "es"
             ? "bg-[var(--panel-strong)] text-[var(--accent)]"
             : "bg-[var(--panel)] text-[var(--muted)] hover:text-[var(--accent)]"
@@ -26,7 +26,7 @@ export default function LanguageSwitcher() {
       </Link>
       <Link
         href={enHref}
-        className={`mono-ui px-2 py-1 text-[10px] ${
+        className={`tile-link mono-ui inline-flex h-10 w-10 items-center justify-center border-l-0 m-0 p-0 text-[10px] leading-none ${
           locale === "en"
             ? "bg-[var(--panel-strong)] text-[var(--accent)]"
             : "bg-[var(--panel)] text-[var(--muted)] hover:text-[var(--accent)]"

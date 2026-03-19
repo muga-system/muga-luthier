@@ -31,7 +31,7 @@ const copy = {
   },
 };
 
-export default function Modal({ locale = "es" }) {
+export default function Modal({ locale = "es", className = "" }) {
   const [isOpen, setIsOpen] = useState(false);
   const t = copy[locale] || copy.es;
 
@@ -68,23 +68,23 @@ export default function Modal({ locale = "es" }) {
 
   return (
     <>
-      <figure className="flex justify-end col-start-4 col-end-5">
+      <div className={className}>
         <button
           type="button"
           onClick={() => setIsOpen(true)}
           aria-label={t.openNav}
-          className="tile-link w-10 h-10"
+          className="tile-link inline-flex w-10 h-10 items-center justify-center border-l-0 m-0 p-0 leading-none"
         >
           <Image
-            className="text-center p-2"
+            className="block m-0 p-0"
             src={Menu}
             alt=""
             aria-hidden="true"
-            width={40}
-            height={40}
+            width={16}
+            height={16}
           />
         </button>
-      </figure>
+      </div>
 
       {isOpen && (
         <div
