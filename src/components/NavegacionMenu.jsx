@@ -41,7 +41,7 @@ export default function NavegacionMenu({ locale = "es" }) {
           />
           <span className="text-[var(--muted)] mono-ui text-xs">. Luthier .</span>
         </div>
-        <ul className="seamless-grid mt-6 list-none p-0">
+        <ul className="seamless-grid list-none p-0">
           <li className="modal-menu-item">
             <NavLink
               activeClasses="flex justify-center text-[var(--accent)] px-4 py-2 bg-[var(--panel-strong)] border border-[var(--accent-soft)]"

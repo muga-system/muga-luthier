@@ -245,7 +245,9 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #040405e0;
+  background-color: #040405e8;
+  background-image: radial-gradient(circle, rgba(124, 129, 139, 0.2) 0.8px, transparent 0.8px);
+  background-size: 12px 12px;
   display: none;
   justify-content: center;
   align-items: center;
